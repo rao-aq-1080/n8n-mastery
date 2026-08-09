@@ -1,0 +1,9 @@
+{
+  "name": "n8n Mastery",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+  "postCreateCommand": "npm install -g n8n",
+  "forwardPorts": [5678],
+  "containerEnv": {
+    "N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS": "false"
+  }
+}
